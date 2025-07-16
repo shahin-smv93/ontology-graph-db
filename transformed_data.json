@@ -1,0 +1,594 @@
+{
+  "buildings": [
+    {
+      "uri": "http://concordia.ca/building/ER",
+      "label": "ER",
+      "address_uri": "http://concordia.ca/address/2155_Guy_H3H_2L9",
+      "spaces": [
+        {
+          "uri": "http://concordia.ca/floor/ER-14",
+          "label": "ER-14",
+          "spaces": [
+            {
+              "uri": "http://concordia.ca/mainRoom/ER-14-1431",
+              "label": "ER-14-1431",
+              "spaces": [
+                {
+                  "uri": "http://concordia.ca/room/ER-14-1431-openSpace",
+                  "label": "ER-14-1431-openSpace",
+                  "spaces": [],
+                  "building_object": [
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-54",
+                      "label": "1431-openSpace-54",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-16",
+                      "label": "1431-openSpace-16",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-36",
+                      "label": "1431-openSpace-36",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-20",
+                      "label": "1431-openSpace-20",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-1",
+                      "label": "1431-openSpace-1",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-49",
+                      "label": "1431-openSpace-49",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-5",
+                      "label": "1431-openSpace-5",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-27",
+                      "label": "1431-openSpace-27",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-44",
+                      "label": "1431-openSpace-44",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-28",
+                      "label": "1431-openSpace-28",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-34",
+                      "label": "1431-openSpace-34",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-53",
+                      "label": "1431-openSpace-53",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-51",
+                      "label": "1431-openSpace-51",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-41",
+                      "label": "1431-openSpace-41",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-15",
+                      "label": "1431-openSpace-15",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-48",
+                      "label": "1431-openSpace-48",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-45",
+                      "label": "1431-openSpace-45",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-03",
+                      "label": "1431-openSpace-03",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-43",
+                      "label": "1431-openSpace-43",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-39",
+                      "label": "1431-openSpace-39",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-8",
+                      "label": "1431-openSpace-8",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-32",
+                      "label": "1431-openSpace-32",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-11",
+                      "label": "1431-openSpace-11",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-50",
+                      "label": "1431-openSpace-50",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-40",
+                      "label": "1431-openSpace-40",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-46",
+                      "label": "1431-openSpace-46",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-6",
+                      "label": "1431-openSpace-6",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-04",
+                      "label": "1431-openSpace-04",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-01",
+                      "label": "1431-openSpace-01",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-02",
+                      "label": "1431-openSpace-02",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-47",
+                      "label": "1431-openSpace-47",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-24",
+                      "label": "1431-openSpace-24",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-33",
+                      "label": "1431-openSpace-33",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-52",
+                      "label": "1431-openSpace-52",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-12",
+                      "label": "1431-openSpace-12",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-38",
+                      "label": "1431-openSpace-38",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-4",
+                      "label": "1431-openSpace-4",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-23",
+                      "label": "1431-openSpace-23",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-31",
+                      "label": "1431-openSpace-31",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-3",
+                      "label": "1431-openSpace-3",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-35",
+                      "label": "1431-openSpace-35",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-42",
+                      "label": "1431-openSpace-42",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-37",
+                      "label": "1431-openSpace-37",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-2",
+                      "label": "1431-openSpace-2",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-19",
+                      "label": "1431-openSpace-19",
+                      "deskDescription": "Portable Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-openSpace-7",
+                      "label": "1431-openSpace-7",
+                      "deskDescription": "Fixed Desk"
+                    }
+                  ]
+                },
+                {
+                  "uri": "http://concordia.ca/room/ER-14-1431-11",
+                  "label": "ER-14-1431-11",
+                  "spaces": [],
+                  "building_object": [
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-15.1",
+                      "label": "1431-11-15.1",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-14.2",
+                      "label": "1431-11-14.2",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-14.3",
+                      "label": "1431-11-14.3",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-14.4",
+                      "label": "1431-11-14.4",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-14.1",
+                      "label": "1431-11-14.1",
+                      "deskDescription": "Fixed Desk"
+                    },
+                    {
+                      "uri": "http://concordia.ca/desk/1431-11-15.2",
+                      "label": "1431-11-15.2",
+                      "deskDescription": "Portable Desk"
+                    }
+                  ]
+                }
+              ],
+              "building_object": []
+            }
+          ],
+          "building_object": []
+        }
+      ]
+    },
+    {
+      "uri": "http://concordia.ca/building/EV",
+      "label": "EV",
+      "address_uri": "http://concordia.ca/address/1515_Saint-Catherine_W_H3G_2H7",
+      "spaces": [
+        {
+          "uri": "http://concordia.ca/floor/EV-10",
+          "label": "EV-10",
+          "spaces": [
+            {
+              "uri": "http://concordia.ca/mainRoom/EV-10-139",
+              "label": "EV-10-139",
+              "spaces": [],
+              "building_object": [
+                {
+                  "uri": "http://concordia.ca/desk/139-4",
+                  "label": "139-4",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-5",
+                  "label": "139-5",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-8",
+                  "label": "139-8",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-2",
+                  "label": "139-2",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-3",
+                  "label": "139-3",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-6",
+                  "label": "139-6",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-7",
+                  "label": "139-7",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-9",
+                  "label": "139-9",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/139-1",
+                  "label": "139-1",
+                  "deskDescription": "Fixed Desk"
+                }
+              ]
+            },
+            {
+              "uri": "http://concordia.ca/mainRoom/EV-10-411",
+              "label": "EV-10-411",
+              "spaces": [],
+              "building_object": [
+                {
+                  "uri": "http://concordia.ca/desk/411-3",
+                  "label": "411-3",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-7",
+                  "label": "411-7",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-12",
+                  "label": "411-12",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-6",
+                  "label": "411-6",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-2",
+                  "label": "411-2",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-13",
+                  "label": "411-13",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-14",
+                  "label": "411-14",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-10",
+                  "label": "411-10",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-11",
+                  "label": "411-11",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-5",
+                  "label": "411-5",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-1",
+                  "label": "411-1",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-15",
+                  "label": "411-15",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-8",
+                  "label": "411-8",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-16",
+                  "label": "411-16",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-4",
+                  "label": "411-4",
+                  "deskDescription": "Portable Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/411-9",
+                  "label": "411-9",
+                  "deskDescription": "Portable Desk"
+                }
+              ]
+            }
+          ],
+          "building_object": []
+        },
+        {
+          "uri": "http://concordia.ca/floor/EV-4",
+          "label": "EV-4",
+          "spaces": [
+            {
+              "uri": "http://concordia.ca/mainRoom/EV-4-214",
+              "label": "EV-4-214",
+              "spaces": [],
+              "building_object": [
+                {
+                  "uri": "http://concordia.ca/desk/214-9",
+                  "label": "214-9",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-8",
+                  "label": "214-8",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-6",
+                  "label": "214-6",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-3",
+                  "label": "214-3",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-7",
+                  "label": "214-7",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-2",
+                  "label": "214-2",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-10",
+                  "label": "214-10",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-1",
+                  "label": "214-1",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-4",
+                  "label": "214-4",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-5",
+                  "label": "214-5",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/214-11",
+                  "label": "214-11",
+                  "deskDescription": "Fixed Desk"
+                }
+              ]
+            }
+          ],
+          "building_object": []
+        },
+        {
+          "uri": "http://concordia.ca/floor/EV-9",
+          "label": "EV-9",
+          "spaces": [
+            {
+              "uri": "http://concordia.ca/mainRoom/EV-9-221",
+              "label": "EV-9-221",
+              "spaces": [],
+              "building_object": [
+                {
+                  "uri": "http://concordia.ca/desk/221-1",
+                  "label": "221-1",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-7",
+                  "label": "221-7",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-6",
+                  "label": "221-6",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-2",
+                  "label": "221-2",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-8",
+                  "label": "221-8",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-3",
+                  "label": "221-3",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-4",
+                  "label": "221-4",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-5",
+                  "label": "221-5",
+                  "deskDescription": "Fixed Desk"
+                },
+                {
+                  "uri": "http://concordia.ca/desk/221-9",
+                  "label": "221-9",
+                  "deskDescription": "Fixed Desk"
+                }
+              ]
+            }
+          ],
+          "building_object": []
+        }
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "uri": "http://concordia.ca/address/2155_Guy_H3H_2L9",
+      "street_name": "Guy",
+      "street_number": "2155",
+      "postal_code": "H3H 2L9"
+    },
+    {
+      "uri": "http://concordia.ca/address/1515_Saint-Catherine_W_H3G_2H7",
+      "street_name": "Saint-Catherine W",
+      "street_number": "1515",
+      "postal_code": "H3G 2H7"
+    }
+  ]
+}

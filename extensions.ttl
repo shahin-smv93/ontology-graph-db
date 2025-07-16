@@ -1,0 +1,162 @@
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:<http://purl.org/dc/terms/> .
+@prefix saref:  <https://saref.etsi.org/core/> .
+@prefix s4watr: <https://saref.etsi.org/saref4watr/> .
+@prefix time:   <http://www.w3.org/2006/time#> .
+@prefix qudt:   <http://qudt.org/vocab/unit/> .
+@prefix bigg:   <http://bigg-project.eu/ld/ontology#> .
+@prefix schema: <https://schema.org/> .
+
+###############################################################################
+# 1. Require all Sensors to have an identifier
+###############################################################################
+saref:Sensor
+  rdfs:subClassOf [
+    a                owl:Restriction ;
+    owl:onProperty   dcterms:identifier ;
+    owl:someValuesFrom rdfs:Literal
+  ] .
+
+###############################################################################
+# 2. Default min/max values for sensors
+###############################################################################
+bigg:hasDefaultMin
+  a           owl:DatatypeProperty ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:domain saref:Sensor ;
+  rdfs:range  xsd:float ;
+  rdfs:label  "Has default minimum value"@en ;
+  rdfs:comment
+    "The default minimum value for a sensor’s measurements."@en .
+
+bigg:hasDefaultMax
+  a           owl:DatatypeProperty ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:domain saref:Sensor ;
+  rdfs:range  xsd:float ;
+  rdfs:label  "Has default maximum value"@en ;
+  rdfs:comment
+    "The default maximum value for a sensor’s measurements."@en .
+
+###############################################################################
+# 4. FeatureOfInterest instances (bigg namespace)
+###############################################################################
+bigg:CO2Property
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "CO₂ Property"@en ;
+  rdfs:comment
+    "Represents the CO₂ concentration feature being measured by sensors."@en .
+
+bigg:AmbientSoundProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Ambient Sound Property"@en ;
+  rdfs:comment
+    "Represents the Ambient Sound feature being measured by sensors."@en .
+
+bigg:IlluminanceProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Illuminance Property"@en ;
+  rdfs:comment
+    "Represents the Illuminance feature being measured by sensors."@en .
+
+bigg:RelativeHumidityProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Relative Humidity Property"@en ;
+  rdfs:comment
+    "Represents the Relative Humidity feature being measured by sensors."@en .
+
+bigg:VOCProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "VOC Property"@en ;
+  rdfs:comment
+    "Represents the VOC feature being measured by sensors."@en .
+
+bigg:OccupancyProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Occupancy Property"@en ;
+  rdfs:comment
+    "Represents the occupancy (number of people) feature being measured by sensors."@en .
+
+bigg:PM25Property
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "PM2.5 Property"@en ;
+  rdfs:comment
+    "Represents the PM2.5 concentration feature being measured by sensors."@en .
+
+bigg:PM10Property
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "PM10 Property"@en ;
+  rdfs:comment
+    "Represents the PM10 concentration feature being measured by sensors."@en .
+
+bigg:PM1Property
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "PM1 Property"@en ;
+  rdfs:comment
+    "Represents the PM1 concentration feature being measured by sensors."@en .
+
+bigg:PM4Property
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "PM4 Property"@en ;
+  rdfs:comment
+    "Represents the PM4 concentration feature being measured by sensors."@en .
+
+bigg:TemperatureProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Temperature Property"@en ;
+  rdfs:comment
+    "Represents the temperature feature being measured by sensors."@en .
+
+bigg:AmbientSoundProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Ambient Sound Property"@en ;
+  rdfs:comment
+    "Represents the Ambient Sound feature being measured by sensors."@en .
+
+bigg:IlluminanceProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Illuminance Property"@en ;
+  rdfs:comment
+    "Represents the Illuminance feature being measured by sensors."@en .
+
+bigg:RelativeHumidityProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "Relative Humidity Property"@en ;
+  rdfs:comment
+    "Represents the Relative Humidity feature being measured by sensors."@en .
+
+bigg:VOCProperty
+  a           saref:FeatureOfInterest ;
+  rdfs:isDefinedBy bigg: ;
+  rdfs:label  "VOC Property"@en ;
+  rdfs:comment
+    "Represents the VOC feature being measured by sensors."@en .
+
+###############################################################################
+# 5. Serial Number for Devices
+###############################################################################
+schema:serialNumber
+  a           owl:DatatypeProperty ;
+  rdfs:isDefinedBy schema: ;
+  rdfs:domain saref:Device ;
+  rdfs:range  xsd:string ;
+  rdfs:label  "Serial Number"@en ;
+  rdfs:comment
+    "The serial number or manufacturer-assigned identifier for a device."@en .

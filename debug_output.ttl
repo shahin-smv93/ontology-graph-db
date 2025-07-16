@@ -1,0 +1,560 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s4bldg: <https://saref.etsi.org/saref4bldg/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<http://concordia.ca/address/1515_Saint-Catherine_W_H3G_2H7> a vcard:Address ;
+    vcard:postal-code "H3G 2H7" ;
+    vcard:street-address "1515 Saint-Catherine W" .
+
+<http://concordia.ca/address/2155_Guy_H3H_2L9> a vcard:Address ;
+    vcard:postal-code "H3H 2L9" ;
+    vcard:street-address "2155 Guy" .
+
+<http://concordia.ca/building/ER> a s4bldg:Building ;
+    rdfs:label "ER" ;
+    vcard:hasAddress <http://concordia.ca/address/2155_Guy_H3H_2L9> ;
+    s4bldg:hasSpace <http://concordia.ca/floor/ER-14> .
+
+<http://concordia.ca/desk/139-1> a s4bldg:PhysicalObject ;
+    rdfs:label "139-1" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-2> a s4bldg:PhysicalObject ;
+    rdfs:label "139-2" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-3> a s4bldg:PhysicalObject ;
+    rdfs:label "139-3" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-4> a s4bldg:PhysicalObject ;
+    rdfs:label "139-4" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-5> a s4bldg:PhysicalObject ;
+    rdfs:label "139-5" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-6> a s4bldg:PhysicalObject ;
+    rdfs:label "139-6" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-7> a s4bldg:PhysicalObject ;
+    rdfs:label "139-7" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-8> a s4bldg:PhysicalObject ;
+    rdfs:label "139-8" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/139-9> a s4bldg:PhysicalObject ;
+    rdfs:label "139-9" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-139> .
+
+<http://concordia.ca/desk/1431-11-14.1> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-14.1" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-11-14.2> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-14.2" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-11-14.3> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-14.3" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-11-14.4> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-14.4" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-11-15.1> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-15.1" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-11-15.2> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-11-15.2" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-11> .
+
+<http://concordia.ca/desk/1431-openSpace-01> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-01" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-02> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-02" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-03> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-03" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-04> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-04" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-1> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-1" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-11> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-11" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-12> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-12" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-15> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-15" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-16> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-16" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-19> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-19" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-2> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-2" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-20> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-20" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-23> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-23" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-24> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-24" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-27> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-27" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-28> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-28" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-3> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-3" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-31> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-31" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-32> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-32" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-33> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-33" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-34> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-34" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-35> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-35" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-36> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-36" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-37> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-37" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-38> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-38" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-39> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-39" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-4> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-4" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-40> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-40" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-41> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-41" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-42> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-42" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-43> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-43" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-44> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-44" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-45> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-45" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-46> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-46" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-47> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-47" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-48> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-48" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-49> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-49" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-5> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-5" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-50> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-50" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-51> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-51" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-52> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-52" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-53> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-53" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-54> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-54" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-6> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-6" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-7> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-7" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/1431-openSpace-8> a s4bldg:PhysicalObject ;
+    rdfs:label "1431-openSpace-8" ;
+    s4bldg:isContainedIn <http://concordia.ca/room/ER-14-1431-openSpace> .
+
+<http://concordia.ca/desk/214-1> a s4bldg:PhysicalObject ;
+    rdfs:label "214-1" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-10> a s4bldg:PhysicalObject ;
+    rdfs:label "214-10" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-11> a s4bldg:PhysicalObject ;
+    rdfs:label "214-11" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-2> a s4bldg:PhysicalObject ;
+    rdfs:label "214-2" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-3> a s4bldg:PhysicalObject ;
+    rdfs:label "214-3" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-4> a s4bldg:PhysicalObject ;
+    rdfs:label "214-4" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-5> a s4bldg:PhysicalObject ;
+    rdfs:label "214-5" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-6> a s4bldg:PhysicalObject ;
+    rdfs:label "214-6" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-7> a s4bldg:PhysicalObject ;
+    rdfs:label "214-7" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-8> a s4bldg:PhysicalObject ;
+    rdfs:label "214-8" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/214-9> a s4bldg:PhysicalObject ;
+    rdfs:label "214-9" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-4-214> .
+
+<http://concordia.ca/desk/221-1> a s4bldg:PhysicalObject ;
+    rdfs:label "221-1" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-2> a s4bldg:PhysicalObject ;
+    rdfs:label "221-2" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-3> a s4bldg:PhysicalObject ;
+    rdfs:label "221-3" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-4> a s4bldg:PhysicalObject ;
+    rdfs:label "221-4" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-5> a s4bldg:PhysicalObject ;
+    rdfs:label "221-5" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-6> a s4bldg:PhysicalObject ;
+    rdfs:label "221-6" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-7> a s4bldg:PhysicalObject ;
+    rdfs:label "221-7" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-8> a s4bldg:PhysicalObject ;
+    rdfs:label "221-8" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/221-9> a s4bldg:PhysicalObject ;
+    rdfs:label "221-9" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-9-221> .
+
+<http://concordia.ca/desk/411-1> a s4bldg:PhysicalObject ;
+    rdfs:label "411-1" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-10> a s4bldg:PhysicalObject ;
+    rdfs:label "411-10" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-11> a s4bldg:PhysicalObject ;
+    rdfs:label "411-11" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-12> a s4bldg:PhysicalObject ;
+    rdfs:label "411-12" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-13> a s4bldg:PhysicalObject ;
+    rdfs:label "411-13" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-14> a s4bldg:PhysicalObject ;
+    rdfs:label "411-14" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-15> a s4bldg:PhysicalObject ;
+    rdfs:label "411-15" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-16> a s4bldg:PhysicalObject ;
+    rdfs:label "411-16" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-2> a s4bldg:PhysicalObject ;
+    rdfs:label "411-2" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-3> a s4bldg:PhysicalObject ;
+    rdfs:label "411-3" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-4> a s4bldg:PhysicalObject ;
+    rdfs:label "411-4" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-5> a s4bldg:PhysicalObject ;
+    rdfs:label "411-5" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-6> a s4bldg:PhysicalObject ;
+    rdfs:label "411-6" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-7> a s4bldg:PhysicalObject ;
+    rdfs:label "411-7" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-8> a s4bldg:PhysicalObject ;
+    rdfs:label "411-8" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/desk/411-9> a s4bldg:PhysicalObject ;
+    rdfs:label "411-9" ;
+    s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
+
+<http://concordia.ca/floor/ER-14> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14" ;
+    s4bldg:hasSpace <http://concordia.ca/mainRoom/ER-14-1431> ;
+    s4bldg:isSpaceOf <http://concordia.ca/building/ER> .
+
+<http://concordia.ca/floor/EV-4> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-4" ;
+    s4bldg:hasSpace <http://concordia.ca/mainRoom/EV-4-214> ;
+    s4bldg:isSpaceOf <http://concordia.ca/building/EV> .
+
+<http://concordia.ca/floor/EV-9> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-9" ;
+    s4bldg:hasSpace <http://concordia.ca/mainRoom/EV-9-221> ;
+    s4bldg:isSpaceOf <http://concordia.ca/building/EV> .
+
+<http://concordia.ca/building/EV> a s4bldg:Building ;
+    rdfs:label "EV" ;
+    vcard:hasAddress <http://concordia.ca/address/1515_Saint-Catherine_W_H3G_2H7> ;
+    s4bldg:hasSpace <http://concordia.ca/floor/EV-10>,
+        <http://concordia.ca/floor/EV-4>,
+        <http://concordia.ca/floor/EV-9> .
+
+<http://concordia.ca/floor/EV-10> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-10" ;
+    s4bldg:hasSpace <http://concordia.ca/mainRoom/EV-10-139>,
+        <http://concordia.ca/mainRoom/EV-10-411> ;
+    s4bldg:isSpaceOf <http://concordia.ca/building/EV> .
+
+<http://concordia.ca/mainRoom/ER-14-1431> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431" ;
+    s4bldg:hasSpace <http://concordia.ca/room/ER-14-1431-11>,
+        <http://concordia.ca/room/ER-14-1431-openSpace> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/ER-14> .
+
+<http://concordia.ca/room/ER-14-1431-11> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-11" ;
+    s4bldg:contains <http://concordia.ca/desk/1431-11-14.1>,
+        <http://concordia.ca/desk/1431-11-14.2>,
+        <http://concordia.ca/desk/1431-11-14.3>,
+        <http://concordia.ca/desk/1431-11-14.4>,
+        <http://concordia.ca/desk/1431-11-15.1>,
+        <http://concordia.ca/desk/1431-11-15.2> ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/mainRoom/EV-10-139> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-10-139" ;
+    s4bldg:contains <http://concordia.ca/desk/139-1>,
+        <http://concordia.ca/desk/139-2>,
+        <http://concordia.ca/desk/139-3>,
+        <http://concordia.ca/desk/139-4>,
+        <http://concordia.ca/desk/139-5>,
+        <http://concordia.ca/desk/139-6>,
+        <http://concordia.ca/desk/139-7>,
+        <http://concordia.ca/desk/139-8>,
+        <http://concordia.ca/desk/139-9> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/EV-10> .
+
+<http://concordia.ca/mainRoom/EV-9-221> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-9-221" ;
+    s4bldg:contains <http://concordia.ca/desk/221-1>,
+        <http://concordia.ca/desk/221-2>,
+        <http://concordia.ca/desk/221-3>,
+        <http://concordia.ca/desk/221-4>,
+        <http://concordia.ca/desk/221-5>,
+        <http://concordia.ca/desk/221-6>,
+        <http://concordia.ca/desk/221-7>,
+        <http://concordia.ca/desk/221-8>,
+        <http://concordia.ca/desk/221-9> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/EV-9> .
+
+<http://concordia.ca/mainRoom/EV-4-214> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-4-214" ;
+    s4bldg:contains <http://concordia.ca/desk/214-1>,
+        <http://concordia.ca/desk/214-10>,
+        <http://concordia.ca/desk/214-11>,
+        <http://concordia.ca/desk/214-2>,
+        <http://concordia.ca/desk/214-3>,
+        <http://concordia.ca/desk/214-4>,
+        <http://concordia.ca/desk/214-5>,
+        <http://concordia.ca/desk/214-6>,
+        <http://concordia.ca/desk/214-7>,
+        <http://concordia.ca/desk/214-8>,
+        <http://concordia.ca/desk/214-9> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/EV-4> .
+
+<http://concordia.ca/mainRoom/EV-10-411> a s4bldg:BuildingSpace ;
+    rdfs:label "EV-10-411" ;
+    s4bldg:contains <http://concordia.ca/desk/411-1>,
+        <http://concordia.ca/desk/411-10>,
+        <http://concordia.ca/desk/411-11>,
+        <http://concordia.ca/desk/411-12>,
+        <http://concordia.ca/desk/411-13>,
+        <http://concordia.ca/desk/411-14>,
+        <http://concordia.ca/desk/411-15>,
+        <http://concordia.ca/desk/411-16>,
+        <http://concordia.ca/desk/411-2>,
+        <http://concordia.ca/desk/411-3>,
+        <http://concordia.ca/desk/411-4>,
+        <http://concordia.ca/desk/411-5>,
+        <http://concordia.ca/desk/411-6>,
+        <http://concordia.ca/desk/411-7>,
+        <http://concordia.ca/desk/411-8>,
+        <http://concordia.ca/desk/411-9> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/EV-10> .
+
+<http://concordia.ca/room/ER-14-1431-openSpace> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-openSpace" ;
+    s4bldg:contains <http://concordia.ca/desk/1431-openSpace-01>,
+        <http://concordia.ca/desk/1431-openSpace-02>,
+        <http://concordia.ca/desk/1431-openSpace-03>,
+        <http://concordia.ca/desk/1431-openSpace-04>,
+        <http://concordia.ca/desk/1431-openSpace-1>,
+        <http://concordia.ca/desk/1431-openSpace-11>,
+        <http://concordia.ca/desk/1431-openSpace-12>,
+        <http://concordia.ca/desk/1431-openSpace-15>,
+        <http://concordia.ca/desk/1431-openSpace-16>,
+        <http://concordia.ca/desk/1431-openSpace-19>,
+        <http://concordia.ca/desk/1431-openSpace-2>,
+        <http://concordia.ca/desk/1431-openSpace-20>,
+        <http://concordia.ca/desk/1431-openSpace-23>,
+        <http://concordia.ca/desk/1431-openSpace-24>,
+        <http://concordia.ca/desk/1431-openSpace-27>,
+        <http://concordia.ca/desk/1431-openSpace-28>,
+        <http://concordia.ca/desk/1431-openSpace-3>,
+        <http://concordia.ca/desk/1431-openSpace-31>,
+        <http://concordia.ca/desk/1431-openSpace-32>,
+        <http://concordia.ca/desk/1431-openSpace-33>,
+        <http://concordia.ca/desk/1431-openSpace-34>,
+        <http://concordia.ca/desk/1431-openSpace-35>,
+        <http://concordia.ca/desk/1431-openSpace-36>,
+        <http://concordia.ca/desk/1431-openSpace-37>,
+        <http://concordia.ca/desk/1431-openSpace-38>,
+        <http://concordia.ca/desk/1431-openSpace-39>,
+        <http://concordia.ca/desk/1431-openSpace-4>,
+        <http://concordia.ca/desk/1431-openSpace-40>,
+        <http://concordia.ca/desk/1431-openSpace-41>,
+        <http://concordia.ca/desk/1431-openSpace-42>,
+        <http://concordia.ca/desk/1431-openSpace-43>,
+        <http://concordia.ca/desk/1431-openSpace-44>,
+        <http://concordia.ca/desk/1431-openSpace-45>,
+        <http://concordia.ca/desk/1431-openSpace-46>,
+        <http://concordia.ca/desk/1431-openSpace-47>,
+        <http://concordia.ca/desk/1431-openSpace-48>,
+        <http://concordia.ca/desk/1431-openSpace-49>,
+        <http://concordia.ca/desk/1431-openSpace-5>,
+        <http://concordia.ca/desk/1431-openSpace-50>,
+        <http://concordia.ca/desk/1431-openSpace-51>,
+        <http://concordia.ca/desk/1431-openSpace-52>,
+        <http://concordia.ca/desk/1431-openSpace-53>,
+        <http://concordia.ca/desk/1431-openSpace-54>,
+        <http://concordia.ca/desk/1431-openSpace-6>,
+        <http://concordia.ca/desk/1431-openSpace-7>,
+        <http://concordia.ca/desk/1431-openSpace-8> ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+

@@ -1,0 +1,16 @@
+venv/
+.env
+__pycache__/
+data/
+*.xlsx
+logs/
+*.log
+debug.log
+.vscode/
+.DS_Store
+Thumbs.db
+retrieve_data_from_timescale/
+neo4j_data/
+neo4j_logs/
+biggontology/
+ontology/
