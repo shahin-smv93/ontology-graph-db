@@ -50,6 +50,8 @@ class Sensor(PhysicalObject):
         if self.has_measurement:
             measurement_uri = self.has_measurement.uri if hasattr(self.has_measurement, 'uri') else self.has_measurement
             g.add((self.uri, saref.makesMeasurement, measurement_uri))
+            # Add the measurement to the graph
+            self.has_measurement.add_to_graph(g)
     
     def __str__(self):
         return f"Sensor(uri={self.uri}, sensorUID={self.sensorUID}, sensorId={self.sensorId}, vendorName={self.vendorName}, contained_in={self.contained_in})"

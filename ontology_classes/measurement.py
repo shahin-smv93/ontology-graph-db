@@ -22,6 +22,8 @@ class Measurement:
         if self.time_interval:
             time_interval_uri = self.time_interval.uri if hasattr(self.time_interval, 'uri') else self.time_interval
             g.add((self.uri, s4watr.hasPhenomenonTime, time_interval_uri))
+            # Add the time interval to the graph
+            self.time_interval.add_to_graph(g)
     
     def __str__(self):
         return f"Measurement(uri={self.uri}, measured_property={self.measured_property}, unit={self.unit}, time_interval={self.time_interval})"
@@ -36,7 +38,7 @@ class TimeInterval:
         self.time_interval = time_interval
 
     def add_to_graph(self, g):
-        g.add((self.uri, RDF.type, time.Interval))
+        g.add((self.uri, RDF.type, time.ProperInterval))
         g.add((self.uri, RDF.type, time.TemporalEntity))
 
         if self.time_interval:
