@@ -286,6 +286,42 @@
                       "deskDescription": "Portable Desk"
                     }
                   ]
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-01",
+                  "label": "ER-14-1431-01",
+                  "spaces": [],
+                  "building_object": []
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-OS2",
+                  "label": "ER-14-1431-OS2",
+                  "spaces": [],
+                  "building_object": []
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-OS1",
+                  "label": "ER-14-1431-OS1",
+                  "spaces": [],
+                  "building_object": []
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-39",
+                  "label": "ER-14-1431-39",
+                  "spaces": [],
+                  "building_object": []
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-33",
+                  "label": "ER-14-1431-33",
+                  "spaces": [],
+                  "building_object": []
+                },
+                {
+                  "uri": "http://concordia.ca/zone/ER-14-1431-OS3",
+                  "label": "ER-14-1431-OS3",
+                  "spaces": [],
+                  "building_object": []
                 }
               ],
               "building_object": []

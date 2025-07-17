@@ -403,6 +403,30 @@
     rdfs:label "411-9" ;
     s4bldg:isContainedIn <http://concordia.ca/mainRoom/EV-10-411> .
 
+<http://concordia.ca/zone/ER-14-1431-01> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-01" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/zone/ER-14-1431-33> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-33" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/zone/ER-14-1431-39> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-39" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/zone/ER-14-1431-OS1> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-OS1" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/zone/ER-14-1431-OS2> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-OS2" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/zone/ER-14-1431-OS3> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431-OS3" ;
+    s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
 <http://concordia.ca/floor/ER-14> a s4bldg:BuildingSpace ;
     rdfs:label "ER-14" ;
     s4bldg:hasSpace <http://concordia.ca/mainRoom/ER-14-1431> ;
@@ -431,12 +455,6 @@
         <http://concordia.ca/mainRoom/EV-10-411> ;
     s4bldg:isSpaceOf <http://concordia.ca/building/EV> .
 
-<http://concordia.ca/mainRoom/ER-14-1431> a s4bldg:BuildingSpace ;
-    rdfs:label "ER-14-1431" ;
-    s4bldg:hasSpace <http://concordia.ca/room/ER-14-1431-11>,
-        <http://concordia.ca/room/ER-14-1431-openSpace> ;
-    s4bldg:isSpaceOf <http://concordia.ca/floor/ER-14> .
-
 <http://concordia.ca/room/ER-14-1431-11> a s4bldg:BuildingSpace ;
     rdfs:label "ER-14-1431-11" ;
     s4bldg:contains <http://concordia.ca/desk/1431-11-14.1>,
@@ -446,6 +464,18 @@
         <http://concordia.ca/desk/1431-11-15.1>,
         <http://concordia.ca/desk/1431-11-15.2> ;
     s4bldg:isSpaceOf <http://concordia.ca/mainRoom/ER-14-1431> .
+
+<http://concordia.ca/mainRoom/ER-14-1431> a s4bldg:BuildingSpace ;
+    rdfs:label "ER-14-1431" ;
+    s4bldg:hasSpace <http://concordia.ca/room/ER-14-1431-11>,
+        <http://concordia.ca/room/ER-14-1431-openSpace>,
+        <http://concordia.ca/zone/ER-14-1431-01>,
+        <http://concordia.ca/zone/ER-14-1431-33>,
+        <http://concordia.ca/zone/ER-14-1431-39>,
+        <http://concordia.ca/zone/ER-14-1431-OS1>,
+        <http://concordia.ca/zone/ER-14-1431-OS2>,
+        <http://concordia.ca/zone/ER-14-1431-OS3> ;
+    s4bldg:isSpaceOf <http://concordia.ca/floor/ER-14> .
 
 <http://concordia.ca/mainRoom/EV-10-139> a s4bldg:BuildingSpace ;
     rdfs:label "EV-10-139" ;
