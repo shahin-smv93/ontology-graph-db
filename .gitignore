@@ -34,3 +34,7 @@ test_sensor_type_mapping.py
 test_sensors.py
 transformed_data.json
 measurement_helpers.py
+concordia_debug_output.ttl
+concordia_neo4j_output.ttl
+concordia_ontology_output.ttl
+concordia_transformed_data.json
