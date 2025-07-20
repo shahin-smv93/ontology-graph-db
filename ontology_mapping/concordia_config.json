@@ -1,0 +1,61 @@
+{
+  "base_namespace": "http://concordia.ca",
+  "input_data_path": "sensors_file/concordia_sensors_finalized.json",
+  "output_transformed_path": "concordia_transformed_data.json",
+  "output_rdf_path": "concordia_ontology_output.ttl",
+  "output_debug_path": "concordia_debug_output.ttl",
+  
+  "required_fields": [
+    "sensorUID",
+    "building",
+    "sensorType"
+  ],
+  
+  "field_categories": {
+    "spatial": {
+      "building": "building",
+      "floor": "floor",
+      "mainRoom": "mainRoom",
+      "room": "room",
+      "zone": "zone"
+    },
+    "building_object": {
+      "deskID": "deskID",
+      "deskDescription": "deskDescription"
+    },
+    "sensor": {
+      "sensorUID": "sensorUID",
+      "sensorId": "sensorId",
+      "sensorType": "sensorType",
+      "vendorName": "vendorName",
+      "installationDate": "installationDate",
+      "sensorDescription": "sensorDescription",
+      "gatewayUID": "gatewayUID",
+      "timeInterval": "timeInterval",
+      "unit": "unit"
+    },
+    "address": {
+      "street_name": "street_name",
+      "street_number": "street_number",
+      "postal_code": "postal_code"
+    }
+  },
+  
+  "custom_namespaces": {
+    "concordia": "http://concordia.ca/"
+  },
+  
+  "validation_rules": {
+    "require_desk_id_for_desk_sensors": true,
+    "require_gateway_for_sensors": false
+  },
+  
+  "enable_debug": true,
+  "validate_data": true,
+  "create_time_intervals": true,
+  "create_gateway_relationships": true,
+  
+  "ignore_null_values": true,
+  "ignore_missing_fields": true,
+  "strict_validation": false
+} 

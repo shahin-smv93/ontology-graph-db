@@ -76,6 +76,10 @@ def build_sensor(sensor_dict, parent=None):
         contained_in=parent
     )
     
+    # Set gateway connection if present
+    if "gateway_connection" in sensor_dict:
+        sensor.gateway_connection = URIRef(sensor_dict["gateway_connection"])
+    
     # Build measurement if present
     if "measurement" in sensor_dict:
         measurement = build_measurement(sensor_dict["measurement"], sensor_dict["uri"])

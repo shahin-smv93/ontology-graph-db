@@ -39,6 +39,10 @@ def serialize_physical_object(obj):
         result["installationDate"] = obj.installationDate
         result["sensorType"] = getattr(obj, 'sensor_type', None)
         
+        # Add gateway connection if exists
+        if hasattr(obj, 'gateway_connection') and obj.gateway_connection:
+            result["gateway_connection"] = str(obj.gateway_connection.uri)
+        
         # Add measurement if exists
         if obj.has_measurement:
             result["measurement"] = {

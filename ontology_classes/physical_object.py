@@ -2,16 +2,20 @@ from rdflib import URIRef, Literal, Graph, RDF, RDFS
 from .namespaces import s4bldg
 
 class PhysicalObject:
-    def __init__(self, uri, label=None, contained_in=None, contains=None):
+    def __init__(self, uri, label=None, contained_in=None, contains=None, deskDescription=None):
         self.uri = URIRef(uri)
         self.label = label
         self.contained_in = contained_in  # BuildingSpace or PhysicalObject or URI
         self.contains = contains or []    # List of PhysicalObject objects
+        self.deskDescription = deskDescription
 
     def add_to_graph(self, g: Graph):
         g.add((self.uri, RDF.type, s4bldg.PhysicalObject))
         if self.label:
             g.add((self.uri, RDFS.label, Literal(self.label)))
+        # Add deskDescription if present
+        if self.deskDescription:
+            g.add((self.uri, s4bldg.description, Literal(self.deskDescription)))
         # Add isContainedIn relationship
         if self.contained_in:
             parent_uri = self.contained_in.uri if hasattr(self.contained_in, 'uri') else self.contained_in

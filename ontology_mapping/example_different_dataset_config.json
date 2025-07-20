@@ -1,0 +1,65 @@
+{
+  "base_namespace": "http://example-university.edu",
+  "input_data_path": "data/campus_sensors.json",
+  "output_transformed_path": "campus_transformed_data.json",
+  "output_rdf_path": "campus_ontology_output.ttl",
+  "output_debug_path": "campus_debug_output.ttl",
+  
+  "sensor_id_field": "device_id",
+  "building_field": "building_name",
+  "floor_field": "level",
+  "room_field": "room_number",
+  "zone_field": "area",
+  "gateway_field": "hub_id",
+  "sensor_type_field": "device_type",
+  "time_interval_field": "sampling_rate",
+  
+  "sensor_fields": {
+    "device_id": "device_id",
+    "manufacturer": "manufacturer",
+    "deployment_date": "deployment_date",
+    "status": "status",
+    "firmware_version": "firmware_version",
+    "description": "description",
+    "location_notes": "location_notes"
+  },
+  
+  "desk_fields": {
+    "workstation_id": "workstation_id",
+    "workstation_type": "workstation_type"
+  },
+  
+  "measurement_fields": {
+    "measurement_unit": "measurement_unit",
+    "calibration_date": "calibration_date"
+  },
+  
+  "spatial_fields": {
+    "wing": "wing",
+    "section": "section"
+  },
+  
+  "address_fields": {
+    "street_name": "street",
+    "street_number": "number",
+    "postal_code": "zip_code"
+  },
+  
+  "custom_namespaces": {
+    "campus": "http://example-university.edu/campus/"
+  },
+  
+  "validation_rules": {
+    "require_workstation_id_for_desk_sensors": true,
+    "require_hub_for_sensors": true
+  },
+  
+  "enable_debug": true,
+  "validate_data": true,
+  "create_time_intervals": true,
+  "create_gateway_relationships": true,
+  
+  "ignore_null_values": true,
+  "ignore_missing_fields": false,
+  "strict_validation": true
+} 
