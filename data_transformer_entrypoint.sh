@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# set -e  # Temporarily disable exit on error for debugging
+# set -e
 
 # Ensure script is executable
 if [ ! -x "$0" ]; then
