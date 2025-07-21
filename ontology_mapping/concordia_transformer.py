@@ -1,5 +1,5 @@
 """
-Concrete implementation of BaseDataTransformer for Concordia dataset.
+Implementation of BaseDataTransformer for Concordia dataset.
 """
 
 import sys
@@ -7,7 +7,6 @@ import os
 from typing import Dict, List, Any, Optional
 from collections import defaultdict
 
-# Add the parent directory to the path to import ontology_classes
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from .base_transformer import BaseDataTransformer
@@ -42,7 +41,6 @@ class ConcordiaDataTransformer(BaseDataTransformer):
         """Extract address information from a record."""
         address_data = self.get_address_data(record)
         
-        # Check for minimum required address fields
         street_name = address_data.get("street_name")
         street_number = address_data.get("street_number")
         postal_code = address_data.get("postal_code")

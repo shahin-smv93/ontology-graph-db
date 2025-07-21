@@ -11,14 +11,17 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the ontology classes
+# Copy the ontology framework
 COPY ontology_classes/ ./ontology_classes/
+COPY ontology_mapping/ ./ontology_mapping/
 
-# Copy the application files
-COPY neo4j_etl/ .
+# Copy the Neo4j loader script
+COPY neo4j_loader_entrypoint.sh .
+RUN chmod +x neo4j_loader_entrypoint.sh && \
+    chown -R root:root /app
 
-# Make scripts executable
-RUN chmod +x entrypoint.sh
+# Set user to root for execution
+USER root
 
-# Default command (can be overridden in docker-compose)
-CMD ["/app/entrypoint.sh"] 
+# Default command
+CMD ["/app/neo4j_loader_entrypoint.sh"] 

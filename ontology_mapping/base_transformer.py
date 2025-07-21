@@ -63,7 +63,6 @@ class BaseDataTransformer(ABC):
         validation_result = self.config.validate_record(record)
         
         if not validation_result["valid"]:
-            # Get sensor ID for logging
             sensor_data = self.get_sensor_data(record)
             sensor_id = sensor_data.get("sensorUID", 'unknown')
             
@@ -163,23 +162,19 @@ class BaseDataTransformer(ABC):
             Transformed hierarchical data structure
         """
         try:
-            # Load raw data
             raw_data = self.load_data()
             
             if not raw_data:
                 raise DataTransformationError("No data loaded")
             
-            # Validate data if enabled
             if self.config.validate_data:
                 valid_data = [record for record in raw_data if self.validate_record(record)]
                 logger.info(f"Validated {len(valid_data)} out of {len(raw_data)} records")
             else:
                 valid_data = raw_data
             
-            # Create hierarchical structure
             hierarchical_data = self.create_hierarchical_structure(valid_data)
             
-            # Save transformed data
             with open(self.config.output_transformed_path, 'w') as f:
                 json.dump(hierarchical_data, f, indent=2)
             
@@ -188,8 +183,6 @@ class BaseDataTransformer(ABC):
             
         except Exception as e:
             raise DataTransformationError(f"Transformation failed: {e}")
-    
-
     
     def get_field_value_safe(self, record: Dict[str, Any], field_name: str) -> Optional[Any]:
         """
@@ -217,7 +210,6 @@ class BaseDataTransformer(ABC):
         """
         return self.config.extract(record, category)
     
-    # Convenience methods for common categories
     def get_spatial_data(self, record: Dict[str, Any]) -> Dict[str, Any]:
         """Get spatial hierarchy data."""
         return self.config.extract_spatial(record)

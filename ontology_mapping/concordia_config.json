@@ -1,9 +1,9 @@
 {
   "base_namespace": "http://concordia.ca",
-  "input_data_path": "sensors_file/concordia_sensors_finalized.json",
-  "output_transformed_path": "concordia_transformed_data.json",
-  "output_rdf_path": "concordia_ontology_output.ttl",
-  "output_debug_path": "concordia_debug_output.ttl",
+  "input_data_path": "/app/shared_data/concordia_transformed_data.json",
+  "output_transformed_path": "/app/shared_data/concordia_transformed_data.json",
+  "output_rdf_path": "/app/shared_data/concordia_ontology_output.ttl",
+  "output_debug_path": "/app/shared_data/concordia_debug_output.ttl",
   
   "required_fields": [
     "sensorUID",

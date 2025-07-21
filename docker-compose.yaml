@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: neo4j.Dockerfile
-    container_name: test_neo4j
+    container_name: neo4j
     ports:
       - "7474:7474"
       - "7687:7687"
@@ -30,7 +30,7 @@ services:
       NEO4J_apoc_import_file_use__neo4j__config: "true"
       NEO4J_dbms_security_auth__minimum__password__length: "6"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:7474"]
+      test: ["CMD", "curl", "-f", "http://neo4j:7474"]
       interval: 10s
       timeout: 10s
       retries: 5
@@ -38,11 +38,11 @@ services:
     networks:
       - neo4j_network
 
-  neo4j_etl:
+  neo4j_setup:
     build:
       context: .
-      dockerfile: neo4jETL.Dockerfile
-    container_name: neo4jETL
+      dockerfile: neo4j_setup.Dockerfile
+    container_name: neo4j_setup
     depends_on:
       neo4j:
         condition: service_healthy
@@ -50,7 +50,61 @@ services:
       - .env
     volumes:
       - ./neo4j_etl:/app
+    environment:
+      NEO4J_URI: "bolt://neo4j:7687"
+      NEO4J_AUTH: "${NEO4J_AUTH:-neo4j/cerciot}"
+      NEO4J_HOST: "neo4j"
+      NEO4J_HTTP_PORT: "7474"
+    networks:
+      - neo4j_network
+
+  data_transformer:
+    build:
+      context: .
+      dockerfile: data_transformer.Dockerfile
+    container_name: data_transformer
+    depends_on:
+      neo4j_setup:
+        condition: service_completed_successfully
+    volumes:
       - ./sensors_file:/app/sensors_file
+      - ./ontology_mapping:/app/ontology_mapping
+      - ./ontology_classes:/app/ontology_classes
+      - ./shared_data:/app/shared_data
+    networks:
+      - neo4j_network
+
+  ontology_mapper:
+    build:
+      context: .
+      dockerfile: ontology_mapper.Dockerfile
+    container_name: ontology_mapper
+    depends_on:
+      data_transformer:
+        condition: service_completed_successfully
+    volumes:
+      - ./ontology_mapping:/app/ontology_mapping
+      - ./ontology_classes:/app/ontology_classes
+      - ./shared_data:/app/shared_data
+    networks:
+      - neo4j_network
+
+  neo4j_loader:
+    build:
+      context: .
+      dockerfile: neo4j_loader.Dockerfile
+    container_name: neo4j_loader
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      ontology_mapper:
+        condition: service_completed_successfully
+    env_file:
+      - .env
+    volumes:
+      - ./ontology_mapping:/app/ontology_mapping
+      - ./ontology_classes:/app/ontology_classes
+      - ./shared_data:/app/shared_data
     environment:
       NEO4J_URI: "bolt://neo4j:7687"
       NEO4J_AUTH: "${NEO4J_AUTH:-neo4j/cerciot}"
@@ -62,6 +116,7 @@ volumes:
   neo4j_logs:
   neo4j_plugins:
   neo4j_conf:
+  shared_data:
 
 networks:
   neo4j_network:

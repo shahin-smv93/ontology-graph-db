@@ -38,3 +38,10 @@ concordia_debug_output.ttl
 concordia_neo4j_output.ttl
 concordia_ontology_output.ttl
 concordia_transformed_data.json
+test_debug.sh
+neo4jETL.Dockerfile
+shared_data/
+ontology_mapping/README.md
+ontology_mapping/run_concordia_example.py
+ontology_mapping/run_concordia_mapping.py
+ontology_mapping/run_concordia_to_neo4j.py

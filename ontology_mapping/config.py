@@ -51,9 +51,9 @@ class OntologyMappingConfig:
     
     # Required data fields (logical names)
     required_fields: List[str] = field(default_factory=lambda: [
-        "sensorUID",  # Unique sensor identifier
-        "building",   # Building identifier  
-        "sensorType"  # Type of sensor
+        "sensorUID",
+        "building",  
+        "sensorType"
     ])
     
     # Mappings by category: logical_name -> JSON key
@@ -178,7 +178,6 @@ class OntologyMappingConfig:
                 result[logical] = val
         return result
     
-    # Convenience methods for common categories
     def extract_spatial(self, record: Dict[str, Any]) -> Dict[str, Any]:
         """Extract spatial hierarchy data."""
         return self.extract(record, "spatial")

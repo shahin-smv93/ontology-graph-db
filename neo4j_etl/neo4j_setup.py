@@ -13,7 +13,7 @@ def neo4j_setup():
         raise ValueError("NEO4J_AUTH is not defined in the env file")
     username, password = env_neo4j.split('/')
 
-    neo4j_uri = 'bolt://localhost:7687'  # Changed to localhost for local testing
+    neo4j_uri = 'bolt://neo4j:7687'
 
     ttl_files = [
         ('file:///var/lib/neo4j/import/ontology.ttl', 'Turtle'),
