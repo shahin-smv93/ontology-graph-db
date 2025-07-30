@@ -12,9 +12,6 @@ Thumbs.db
 retrieve_data_from_timescale/
 neo4j_data/
 neo4j_logs/
-biggontology/
-ontology/
-sensors_file/
 neo4j_etl/data_transformer.py
 neo4j_etl/desk_hierarchy_transformer.py
 neo4j_etl/enhanced_sensor_transformer.py
@@ -33,15 +30,12 @@ test_full_debug_output.ttl
 test_sensor_type_mapping.py
 test_sensors.py
 transformed_data.json
-measurement_helpers.py
 concordia_debug_output.ttl
 concordia_neo4j_output.ttl
 concordia_ontology_output.ttl
 concordia_transformed_data.json
 test_debug.sh
 neo4jETL.Dockerfile
-shared_data/
 ontology_mapping/README.md
 ontology_mapping/run_concordia_example.py
-ontology_mapping/run_concordia_mapping.py
-ontology_mapping/run_concordia_to_neo4j.py
+DOCKER_README.md

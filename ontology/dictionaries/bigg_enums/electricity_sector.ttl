@@ -1,0 +1,28 @@
+@base <http://bigg-project.eu/ontology#> .
+@prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+
+
+bigg:COMSectorElectricity a saref:Property, skos:Concept ;
+    rdfs:label "COM electricity sector"@en ;
+    rdfs:comment "COM electricity sector description"@en .
+
+bigg:INDSectorElectricity a saref:Property, skos:Concept ;
+    rdfs:label "IND electricity sector"@en ;
+    rdfs:comment "IND electricity sector description"@en .
+
+bigg:INSSectorElectricity a saref:Property, skos:Concept ;
+    rdfs:label "INS electricity sector"@en ;
+    rdfs:comment "INS electricity sector description"@en .
+
+bigg:RESSectorElectricity a saref:Property, skos:Concept ;
+    rdfs:label "RES electricity sector"@en ;
+    rdfs:comment "RES electricity sector description"@en .
+
