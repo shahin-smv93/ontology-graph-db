@@ -39,5 +39,5 @@ neo4jETL.Dockerfile
 ontology_mapping/README.md
 ontology_mapping/run_concordia_example.py
 DOCKER_README.md
-sensors_file/concordia_sensors_finalized.json
-sensors_file/sensors_backup.json
+concordia_sensors_finalized.json
+sensors_backup.json
