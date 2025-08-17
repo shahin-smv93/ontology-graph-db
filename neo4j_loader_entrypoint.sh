@@ -53,7 +53,7 @@ neo4j_auth = os.getenv('NEO4J_AUTH', 'neo4j/cerciot')
 username, password = neo4j_auth.split('/')
 neo4j_uri = 'bolt://neo4j:7687'
 
-print(f'🔗 Connecting to Neo4j at {neo4j_uri}')
+print(f'Connecting to Neo4j at {neo4j_uri}')
 
 try:
     # Load the RDF graph

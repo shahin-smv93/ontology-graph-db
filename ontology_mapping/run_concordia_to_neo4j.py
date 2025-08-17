@@ -66,7 +66,7 @@ def concordia_to_neo4j_pipeline():
     neo4j_uri = 'bolt://localhost:7687'
     
     try:
-        print("🚀 Starting Concordia to Neo4j Pipeline")
+        print("Starting Concordia to Neo4j Pipeline")
         print("=" * 50)
         
         # Step 1: Load configuration
@@ -113,7 +113,7 @@ def concordia_to_neo4j_pipeline():
         logger.info("Concordia to Neo4j pipeline completed successfully!")
         
         # Print summary for verification
-        print(f"\n🎉 Pipeline Summary:")
+        print(f"\nPipeline Summary:")
         print(f"- RDF graph contains {len(rdf_graph)} triples")
         print(f"- Turtle file saved as concordia_neo4j_output.ttl")
         print(f"- Data loaded into Neo4j at {neo4j_uri}")
