@@ -1,4 +1,4 @@
-# # Ontology Mapping Pipeline for Smart Building IoT Applications
+# Ontology Mapping Pipeline for Smart Building IoT Applications
 
 > **Note:** This project is developed for the IoT showroom of the Next Generation Cities Institute at Concordia University. It is an evolving platform and will be expanded in the future to cover additional use cases, data sources, and ontology extensions.
 
